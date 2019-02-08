@@ -1,0 +1,35 @@
+# == Schema Information
+#
+# Table name: countries
+#
+#  id           :bigint(8)        not null, primary key
+#  name         :text
+#  population   :integer
+#  gdp          :integer
+#  area         :integer
+#  density      :float
+#  unemployment :float
+#  females      :float
+#  created_at   :datetime         not null
+#  updated_at   :datetime         not null
+#
+
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyText
+  population: 1
+  gdp: 1
+  area: 1
+  density: 1.5
+  unemployment: 1.5
+  females: 1.5
+
+two:
+  name: MyText
+  population: 1
+  gdp: 1
+  area: 1
+  density: 1.5
+  unemployment: 1.5
+  females: 1.5
