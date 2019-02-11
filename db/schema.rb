@@ -23,6 +23,18 @@ ActiveRecord::Schema.define(version: 2019_02_10_232711) do
     t.datetime "updated_at", null: false
   end
 
+  create_table "countries", force: :cascade do |t|
+    t.text "name"
+    t.integer "population"
+    t.integer "gdp"
+    t.integer "area"
+    t.float "density"
+    t.float "unemployment"
+    t.float "females"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
   create_table "densities", force: :cascade do |t|
     t.text "country_name"
     t.text "country_code"
