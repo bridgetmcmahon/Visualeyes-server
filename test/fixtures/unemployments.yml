@@ -1,0 +1,106 @@
+# == Schema Information
+#
+# Table name: unemployments
+#
+#  id           :bigint(8)        not null, primary key
+#  country_name :text
+#  country_code :text
+#  1991         :float
+#  1992         :float
+#  1993         :float
+#  1994         :float
+#  1995         :float
+#  1996         :float
+#  1997         :float
+#  1998         :float
+#  1999         :float
+#  2000         :float
+#  2001         :float
+#  2002         :float
+#  2003         :float
+#  2004         :float
+#  2005         :float
+#  2006         :float
+#  2007         :float
+#  2008         :float
+#  2009         :float
+#  2010         :float
+#  2011         :float
+#  2012         :float
+#  2013         :float
+#  2014         :float
+#  2015         :float
+#  2016         :float
+#  2017         :float
+#  2018         :float
+#  created_at   :datetime         not null
+#  updated_at   :datetime         not null
+#
+
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  id: 1
+  country_name: MyText
+  country_code: MyText
+  1991: 1.5
+  1992: 1.5
+  1993: 1.5
+  1994: 1.5
+  1995: 1.5
+  1996: 1.5
+  1997: 1.5
+  1998: 1.5
+  1999: 1.5
+  2000: 1.5
+  2001: 1.5
+  2002: 1.5
+  2003: 1.5
+  2004: 1.5
+  2005: 1.5
+  2006: 1.5
+  2007: 1.5
+  2008: 1.5
+  2009: 1.5
+  2010: 1.5
+  2011: 1.5
+  2012: 1.5
+  2013: 1.5
+  2014: 1.5
+  2015: 1.5
+  2016: 1.5
+  2017: 1.5
+  2018: 1.5
+
+two:
+  id: 1
+  country_name: MyText
+  country_code: MyText
+  1991: 1.5
+  1992: 1.5
+  1993: 1.5
+  1994: 1.5
+  1995: 1.5
+  1996: 1.5
+  1997: 1.5
+  1998: 1.5
+  1999: 1.5
+  2000: 1.5
+  2001: 1.5
+  2002: 1.5
+  2003: 1.5
+  2004: 1.5
+  2005: 1.5
+  2006: 1.5
+  2007: 1.5
+  2008: 1.5
+  2009: 1.5
+  2010: 1.5
+  2011: 1.5
+  2012: 1.5
+  2013: 1.5
+  2014: 1.5
+  2015: 1.5
+  2016: 1.5
+  2017: 1.5
+  2018: 1.5

@@ -1,0 +1,159 @@
+# == Schema Information
+#
+# Table name: populations
+#
+#  id           :bigint(8)        not null, primary key
+#  country_name :text
+#  country_code :text
+#  1960         :integer
+#  1961         :integer
+#  1962         :integer
+#  1963         :integer
+#  1964         :integer
+#  1965         :integer
+#  1966         :integer
+#  1967         :integer
+#  1968         :integer
+#  1969         :integer
+#  1970         :integer
+#  1971         :integer
+#  1972         :integer
+#  1973         :integer
+#  1974         :integer
+#  1975         :integer
+#  1976         :integer
+#  1977         :integer
+#  1978         :integer
+#  1979         :integer
+#  1980         :integer
+#  1981         :integer
+#  1982         :integer
+#  1983         :integer
+#  1984         :integer
+#  1985         :integer
+#  1986         :integer
+#  1987         :integer
+#  1988         :integer
+#  1989         :integer
+#  1990         :integer
+#  1991         :integer
+#  1992         :integer
+#  1993         :integer
+#  1994         :integer
+#  1995         :integer
+#  1996         :integer
+#  1997         :integer
+#  1998         :integer
+#  1999         :integer
+#  2000         :integer
+#  2001         :integer
+#  2002         :integer
+#  2003         :integer
+#  2004         :integer
+#  2005         :integer
+#  2006         :integer
+#  2007         :integer
+#  2008         :integer
+#  2009         :integer
+#  2010         :integer
+#  2011         :integer
+#  2012         :integer
+#  2013         :integer
+#  2014         :integer
+#  2015         :integer
+#  2016         :integer
+#  2017         :integer
+#  2018         :integer
+#  2019         :integer
+#  2020         :integer
+#  2021         :integer
+#  2022         :integer
+#  2023         :integer
+#  2024         :integer
+#  2025         :integer
+#  2026         :integer
+#  2027         :integer
+#  2028         :integer
+#  2029         :integer
+#  2030         :integer
+#  2031         :integer
+#  2032         :integer
+#  2033         :integer
+#  2034         :integer
+#  2035         :integer
+#  2036         :integer
+#  2037         :integer
+#  2038         :integer
+#  2039         :integer
+#  2040         :integer
+#  2041         :integer
+#  2042         :integer
+#  2043         :integer
+#  2044         :integer
+#  2045         :integer
+#  2046         :integer
+#  2047         :integer
+#  2048         :integer
+#  2049         :integer
+#  2050         :integer
+#  2051         :integer
+#  2052         :integer
+#  2053         :integer
+#  2054         :integer
+#  2055         :integer
+#  2056         :integer
+#  2057         :integer
+#  2058         :integer
+#  2059         :integer
+#  2060         :integer
+#  2061         :integer
+#  2062         :integer
+#  2063         :integer
+#  2064         :integer
+#  2065         :integer
+#  2066         :integer
+#  2067         :integer
+#  2068         :integer
+#  2069         :integer
+#  2070         :integer
+#  2071         :integer
+#  2072         :integer
+#  2073         :integer
+#  2074         :integer
+#  2075         :integer
+#  2076         :integer
+#  2077         :integer
+#  2078         :integer
+#  2079         :integer
+#  2080         :integer
+#  2081         :integer
+#  2082         :integer
+#  2083         :integer
+#  2084         :integer
+#  2085         :integer
+#  2086         :integer
+#  2087         :integer
+#  2088         :integer
+#  2089         :integer
+#  2090         :integer
+#  2091         :integer
+#  2092         :integer
+#  2093         :integer
+#  2094         :integer
+#  2095         :integer
+#  2096         :integer
+#  2097         :integer
+#  2098         :integer
+#  2099         :integer
+#  2100         :integer
+#  created_at   :datetime         not null
+#  updated_at   :datetime         not null
+#
+
+require 'test_helper'
+
+class PopulationTest < ActiveSupport::TestCase
+  # test "the truth" do
+  #   assert true
+  # end
+end
