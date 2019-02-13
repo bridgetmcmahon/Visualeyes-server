@@ -1,0 +1,35 @@
+# == Schema Information
+#
+# Table name: statistics
+#
+#  id              :bigint(8)        not null, primary key
+#  country_name    :text
+#  gdp_total       :integer
+#  population      :integer
+#  life_expectancy :integer
+#  gdp_capita      :integer
+#  area            :integer
+#  density         :integer
+#  created_at      :datetime         not null
+#  updated_at      :datetime         not null
+#
+
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  country_name: MyText
+  gdp_total: 1
+  population: 1
+  life_expectancy: 1
+  gdp_capita: 1
+  area: 1
+  density: 1
+
+two:
+  country_name: MyText
+  gdp_total: 1
+  population: 1
+  life_expectancy: 1
+  gdp_capita: 1
+  area: 1
+  density: 1

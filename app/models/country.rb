@@ -8,10 +8,6 @@
 #  updated_at :datetime         not null
 #
 
-# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
-
-one:
-  name: MyText
-
-two:
-  name: MyText
+class Country < ApplicationRecord
+  has_many :statistics
+end
