@@ -1,4 +1,8 @@
 Rails.application.routes.draw do
-  root :to => 'countries#index'
+  root :to => 'statistics#index'
+
+  get '/statistics' => 'statistics#index'
+
+  resources :statistics
 
 end

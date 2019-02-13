@@ -1,0 +1,15 @@
+<h1>All Stats</h1>
+
+<% @statistics.each do |stat| %>
+  <h2>//////////////////</h2>
+  <p>Year: <%= stat.year %></p>
+  <p>Country_id: <%= stat.country_id %></p>
+
+  <p>GDP total: <%= stat.gdp_total %></p>
+  <p>Population: <%= stat.population %></p>
+  <p>Life expectancy: <%= stat.life_expectancy %></p>
+  <p>GDP per capita: <%= stat.gdp_capita %></p>
+  <p>Area: <%= stat.area %></p>
+  <p>Population Density: <%= stat.density %></p>
+  <h2>//////////////////</h2>
+<% end %>
